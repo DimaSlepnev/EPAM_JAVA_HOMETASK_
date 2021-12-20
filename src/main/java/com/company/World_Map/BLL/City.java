@@ -1,12 +1,6 @@
 package com.company.World_Map.BLL;
 
-import com.company.Homework9.Matrix;
-
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.StringJoiner;
-import java.util.UUID;
 
 public class City implements Serializable {
     private String name;
@@ -41,7 +35,7 @@ public class City implements Serializable {
     public void setPopulation(int population) {
         if (population < 0)
            population = Math.abs(population);
-        if (population == 0) {
+        else if (population == 0) {
             System.out.println("We don`t need ghost city!");
             population = 500000;
         }
@@ -60,7 +54,7 @@ public class City implements Serializable {
         this.uniqueID = uniqueID;
     }
 
-    public boolean isCapital() {
+    public boolean getIsCapital() {
         return isCapital;
     }
 
@@ -77,7 +71,7 @@ public class City implements Serializable {
      String result ="\nCity " + this.getName()  +
                 ":\nuniqueID: " + this.getUniqueID() +
                 ";\npopulation: " + this.getPopulation() +
-                ";\nis capital: " + this.isCapital() + ";";
+                ";\nis capital: " + this.getIsCapital() + ";";
      return result.replace("[","");
     }
 }

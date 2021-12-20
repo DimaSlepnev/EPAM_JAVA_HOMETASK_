@@ -18,25 +18,26 @@
  </void>
 </void>
 <void idref="ArrayList0"/>
+<void class="com.company.World_Map.BLL.City" id="City0">
+ <void property="name">
+  <string>Krakow</string>
+ </void>
+ <void property="population">
+  <int>500000</int>
+ </void>
+ <void property="uniqueID">
+  <string>46f2c</string>
+ </void>
+ <void property="motherland">
+  <string>Poland</string>
+ </void>
+</void>
 <void class="com.company.World_Map.BLL.Country" id="Field1" method="getField">
  <string>cities</string>
  <void id="ArrayList1" method="get">
   <object idref="Country0"/>
   <void method="add">
-   <object class="com.company.World_Map.BLL.City">
-    <void property="motherland">
-     <string>Poland</string>
-    </void>
-    <void property="name">
-     <string>Krakow</string>
-    </void>
-    <void property="population">
-     <int>1000000</int>
-    </void>
-    <void property="uniqueID">
-     <string>46f2c</string>
-    </void>
-   </object>
+   <object idref="City0"/>
   </void>
  </void>
 </void>

@@ -3,7 +3,6 @@ package com.company.World_Map.DAL;
 import org.xml.sax.ErrorHandler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXParseException;
 
 public class WorldMapErrorHandler implements ErrorHandler {

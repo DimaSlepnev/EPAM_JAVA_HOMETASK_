@@ -58,12 +58,12 @@ public class ConsoleMenu {
                 System.out.println("Here not 5 characters");
                 throw new IOException();
             }
-            if (worldMap.searchCityByID(inputUniqueID) != null) {
-                result = worldMap.searchCityByID(inputUniqueID);
+            if (worldMap.searchCountryByID(inputUniqueID) != null) {
+                result = worldMap.searchCountryByID(inputUniqueID);
                 System.out.println(result);
             }
-            else if (worldMap.searchCountryByID(inputUniqueID) != null) {
-                result = worldMap.searchCountryByID(inputUniqueID);
+            else if (worldMap.searchCityByID(inputUniqueID) != null) {
+                result = worldMap.searchCityByID(inputUniqueID);
                 System.out.println(result);
             }
             if (result == null)
@@ -179,7 +179,7 @@ public class ConsoleMenu {
         try {
             int number = Integer.parseInt(br.readLine());
             country = worldMap.getWorldMap().get(number - 1);
-            System.out.println("Choose action with country\n" +
+            System.out.println("Choose action with cities\n" +
                     "1 - Show cities in country\n" +
                     "2 - Add city to country\n" +
                     "3 - Remove city from country\n" +
@@ -209,7 +209,7 @@ public class ConsoleMenu {
             } else {
                 throw new IOException();
             }
-        } catch (IOException  | NumberFormatException e) {
+        } catch (IOException  | NumberFormatException | IndexOutOfBoundsException e) {
             errorMessage();
         }
     }
@@ -217,13 +217,13 @@ public class ConsoleMenu {
 
     public void showAllCities() throws IOException {
         if (worldMap == null) {
-            System.out.println("Map is empty. Immediately add country! ");
+            System.out.println("Map is empty. Immediately add country!");
             countyAdder();
         } else {
             for (int i = 0; i < worldMap.getWorldMap().size(); i++) {
                 for (Country country : worldMap.getWorldMap()) {
                     for (City city :country.cities) {
-                        System.out.println(city.getName() + " | " + city.getUniqueID() + " | " + city.getPopulation() + " | " + city.isCapital());
+                        System.out.println(city.getName() + " | " + city.getUniqueID() + " | " + city.getPopulation() + " | " + city.getIsCapital());
                     }
                 }
             }
@@ -246,10 +246,10 @@ public class ConsoleMenu {
         try{
             int number = Integer.parseInt(br.readLine());
             if (number < 1 || number > country.getCities().size()){
-                throw new IOException();
+                throw new IndexOutOfBoundsException();
             }
             country.getCities().remove(number - 1);
-        } catch (IOException e){
+        } catch (IOException | IndexOutOfBoundsException e){
             errorMessage();
         }
     }
@@ -311,11 +311,13 @@ public class ConsoleMenu {
         } catch (IOException e) {
             System.out.println("Found error. The population was remained");
         }
+
     }
 
     public void showCitiesInOneCountry(Country country) throws IOException {
      if(country.getCities().size() == 0) {
-         System.out.println("Map has no cities in this country");
+         System.out.println("Map has no cities in this country\n" +
+                 "Please, be first who add a new city: ");
          cityAdder(country);
      }
      else{

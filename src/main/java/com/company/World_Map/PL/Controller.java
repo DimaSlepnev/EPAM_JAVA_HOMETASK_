@@ -9,7 +9,7 @@ import java.util.UUID;
 public class Controller {
     public BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    public String nameController() throws IOException {
+     String nameController() throws IOException {
         String name = "default";
         while (true) {
             System.out.println("Enter a name:");
@@ -23,12 +23,12 @@ public class Controller {
         return name;
     }
 
-    public String uniqueIDMaker() {
+     String uniqueIDMaker() {
         String uniqueID = UUID.randomUUID().toString().substring(0, 5);
         return uniqueID;
     }
 
-    public int populationController() throws IOException {
+    int populationController() throws IOException {
         try {
             System.out.println("Enter population:");
             int population = Integer.parseInt(br.readLine());
@@ -40,7 +40,7 @@ public class Controller {
         return 0;
     }
 
-    public boolean isCapitalController() throws IOException {
+     boolean isCapitalController() throws IOException {
         String str;
         boolean isCapital;
         while (true) {
