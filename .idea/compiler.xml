@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="EPAM_JAVA_HOMETASK" target="16" />
+      <module name="HomeWork1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
