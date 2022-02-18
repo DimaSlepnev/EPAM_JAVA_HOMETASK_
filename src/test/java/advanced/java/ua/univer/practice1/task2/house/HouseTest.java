@@ -1,4 +1,4 @@
-package advanced.practice1.house;
+package advanced.java.ua.univer.practice1.task2.house;
 
 import advanced.java.ua.univer.practice1.task1.house.House;
 import org.junit.jupiter.api.Assertions;

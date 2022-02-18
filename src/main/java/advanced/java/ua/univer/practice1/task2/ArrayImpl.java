@@ -1,7 +1,5 @@
 package advanced.java.ua.univer.practice1.task2;
 
-
-import java.sql.SQLOutput;
 import java.util.Iterator;
 
 
@@ -81,7 +79,7 @@ public class ArrayImpl<T> implements Array {
         for (int i = 0; i < arr.length - 1; i++) {
             str.append(arr[i] + ", ");
         }
-        if(arr.length > 0) str.append(arr[arr.length - 1]);
+        if (arr.length > 0) str.append(arr[arr.length - 1]);
         str.append("]");
         return str.toString();
     }
@@ -129,7 +127,7 @@ public class ArrayImpl<T> implements Array {
         System.out.println("Search by element C: " + arr.indexOf("C"));
         System.out.println("Search by element U: " + arr.indexOf("U"));
         arr.remove(1);
-        System.out.println("Remove element with index 1: "+ arr);
+        System.out.println("Remove element with index 1: " + arr);
         arr.clear();
         System.out.println("Clean all array: " + arr);
     }

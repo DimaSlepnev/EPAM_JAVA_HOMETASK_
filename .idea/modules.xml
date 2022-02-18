@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EPAM_JAVA_HOMETASK.iml" filepath="$PROJECT_DIR$/EPAM_JAVA_HOMETASK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSON simple/json-simple-master/json-simple.iml" filepath="$PROJECT_DIR$/JSON simple/json-simple-master/json-simple.iml" />
     </modules>
   </component>
 </project>
