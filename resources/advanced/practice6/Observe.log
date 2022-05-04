@@ -1,0 +1,8 @@
+мая 04, 2022 2:25:28 PM advanced.java.ua.univer.practice6.observer.git.MyRepository commit
+INFO: add Event[COMMIT, dev-readme, [Commit[Johnny Mnemonic, [Added README.md, Added project description]]]] to events list
+мая 04, 2022 2:25:28 PM advanced.java.ua.univer.practice6.observer.git.MyRepository commit
+INFO: add Event[COMMIT, dev-readme, [Commit[Johnny Mnemonic, [Added functional requirements]]]] to events list
+мая 04, 2022 2:25:28 PM advanced.java.ua.univer.practice6.observer.git.MyRepository commit
+INFO: add Event[COMMIT, dev-readme, [Commit[Johnny Silverhand, [Added cyberanarchy manifest]]]] to events list
+мая 04, 2022 2:25:28 PM advanced.java.ua.univer.practice6.observer.git.MyRepository commit
+INFO: add Event[COMMIT, master, [Commit[CrashOverrider, [Added full implementation]]]] to events list
