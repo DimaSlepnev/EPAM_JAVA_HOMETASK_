@@ -1,3 +1,5 @@
+DROP database if exists 'videoteka';
+CREATE DATABASE 'videoteka';
 USE videoteka;
 CREATE TABLE films(
                       Id INT PRIMARY KEY AUTO_INCREMENT,
