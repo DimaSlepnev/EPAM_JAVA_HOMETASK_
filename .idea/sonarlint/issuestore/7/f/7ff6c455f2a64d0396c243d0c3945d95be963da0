@@ -1,0 +1,17 @@
+
+D
+java:S3740	"/Provide the parametrized type for this generic.(†ÊÅ|
+D
+java:S3740
+"/Provide the parametrized type for this generic.(¶™ÄD
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€äª¢ûÿÿÿÿ
+`
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ä¼™Şÿÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ù­Úƒúÿÿÿÿ
+c	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’­«Ú
+c	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÒæ
+F
+java:S11725"0Remove this unused method parameter "positions".(âÒæ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(„ÕÆ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(´ƒıÕúÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ

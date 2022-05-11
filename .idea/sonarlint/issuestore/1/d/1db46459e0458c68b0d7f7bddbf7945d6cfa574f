@@ -1,0 +1,9 @@
+
+M
+java:S2629 "7Use the built-in formatting to construct this argument.(ÃòÁÒ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ¬‘ø
+x	java:S116"^Rename this field "PLAYER_CARDS_AMOUNT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¹÷ùÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(¡¹÷ùÿÿÿÿÿ
+a
+java:S3457 "KFormat specifiers or lambda should be used instead of string concatenation.(ÃòÁÒ

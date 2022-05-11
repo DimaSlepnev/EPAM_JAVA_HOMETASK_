@@ -1,0 +1,26 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àæ÷ë
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ˆÄŸ
+b
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(™¸¡
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¨òøÿÿÿÿ
+c	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¾ëÙ
+h	java:S1008"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çµú†ùÿÿÿÿ
+c	java:S100H"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¬ÎÆ
+<
+java:S2111P"!Use "BigDecimal.valueOf" instead.(ÕŞÕşşÿÿÿÿ
+K
+java:S1874P"0Remove this use of "setScale"; it is deprecated.(ÕŞÕşşÿÿÿÿ
+P
+java:S1874P"5Remove this use of "ROUND_HALF_UP"; it is deprecated.(ÕŞÕşşÿÿÿÿ
+c	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êêøº
+c	java:S100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å°Ò¥
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(¿¹ï‘ûÿÿÿÿ
+c	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş°Ó‚
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(ÿÏğ
+c	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æôäº
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(ÅºÛ‰úÿÿÿÿ
+c	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†‚÷
+M	java:S106m"9Replace this use of System.out or System.err by a logger.(…ëÇ
+h	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äèâ‡ûÿÿÿÿ
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(ï•º¡

@@ -1,0 +1,9 @@
+
+^
+java:S1192"IDefine a constant instead of duplicating this literal "resource" 3 times.(ûëïK
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àæ÷ë
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûëïK
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(í—ÚÜ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½¶äúÿÿÿÿ
+^
+java:S1214"CMove constants defined in this interfaces to another class or enum.(‹Ô¢†ıÿÿÿÿ

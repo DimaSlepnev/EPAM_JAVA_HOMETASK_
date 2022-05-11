@@ -1,0 +1,57 @@
+
+^
+java:S1192T"HDefine a constant instead of duplicating this literal "Answer:" 5 times.(Ï ù
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œëî„øÿÿÿÿ
+=
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼„âÒ
+H
+java:S6126"2Replace this String concatenation with Text block.(¼„âÒ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(É…çé
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(öÚÇßûÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ƒ°äııÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ùÔÖùÿÿÿÿ
+1
+java:S3626h"Remove this redundant jump.(ûÁİ…
+N	java:S106O"9Replace this use of System.out or System.err by a logger.(İğù¥
+H
+java:S6126O"2Replace this String concatenation with Text block.(İğù¥
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(Ü‚ô§ùÿÿÿÿ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(ß†Ó
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‘§”Åøÿÿÿÿ
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(âİÂöüÿÿÿÿ
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(ƒ°äııÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(±Ğ¸Í
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(¸‰“¡øÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(’ŸÙ£
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(â¬—›ùÿÿÿÿ
+2
+java:S3626Ä"Remove this redundant jump.(ûÁİ…
+2
+java:S3626Ê"Remove this redundant jump.(ûÁİ…
+T	java:S106°"9Replace this use of System.out or System.err by a logger.(Òóé…ÿÿÿÿÿ
+O	java:S106²"9Replace this use of System.out or System.err by a logger.(‚Ñå
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(üñ¬Ì
+I
+java:S6126¶"2Replace this String concatenation with Text block.(üñ¬Ì
+O	java:S106È"9Replace this use of System.out or System.err by a logger.(ò°íü
+T	java:S106Ü"9Replace this use of System.out or System.err by a logger.(Ü‚ô§ùÿÿÿÿ
+T	java:S106â"9Replace this use of System.out or System.err by a logger.(Å·İ²ÿÿÿÿÿ
+O	java:S106ó"9Replace this use of System.out or System.err by a logger.(±Ø¼
+O	java:S106õ"9Replace this use of System.out or System.err by a logger.(‚Ñå
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(¥Ó’úÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(‚Ñå
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(Ş¡ÃÙşÿÿÿÿ
+N
+java:S6126’"2Replace this String concatenation with Text block.(Ş¡ÃÙşÿÿÿÿ
+O	java:S106­"9Replace this use of System.out or System.err by a logger.(èÕÊ…
+3
+java:S1116­"Remove this empty statement.(èÕÊ…
+T	java:S106¸"9Replace this use of System.out or System.err by a logger.(†İ»™şÿÿÿÿ
+U
+java:S1155¾">Use isEmpty() to check whether the collection is empty or not.(ƒ¥µ”
+N	java:S106¿"9Replace this use of System.out or System.err by a logger.(¯ŠÏ3
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(è ½Óúÿÿÿÿ
+T	java:S106Ë"9Replace this use of System.out or System.err by a logger.(‘úéıÿÿÿÿ
