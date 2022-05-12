@@ -2,13 +2,13 @@ package advanced.java.ua.univer.practice7.subject_area;
 
 import java.util.Date;
 
-public class Film {
+public class FilmDTO {
     private int id;
     private String name;
     private Date dateOfProduction;
     private String Country;
 
-    public Film(int id, String name, Date dateOfProduction, String country) {
+    public FilmDTO(int id, String name, Date dateOfProduction, String country) {
         this.id = id;
         this.name = name;
         this.dateOfProduction = dateOfProduction;

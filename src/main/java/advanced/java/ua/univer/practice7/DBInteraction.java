@@ -1,11 +1,10 @@
 package advanced.java.ua.univer.practice7;
 
 import advanced.java.ua.univer.practice7.subject_area.Actor;
-import advanced.java.ua.univer.practice7.subject_area.Film;
+import advanced.java.ua.univer.practice7.subject_area.FilmDTO;
 
 import java.sql.*;
 import java.util.*;
-import java.util.Date;
 
 public class DBInteraction {
     private final ResourceBundle resource = ResourceBundle.getBundle("database");
@@ -31,8 +30,8 @@ public class DBInteraction {
         }
     }
 
-    public List<Film> getAllFilms() throws SQLException {
-        List<Film> films = new ArrayList<>();
+    public List<FilmDTO> getAllFilms() throws SQLException {
+        List<FilmDTO> films = new ArrayList<>();
         pst = connection.prepareStatement("SELECT * FROM films");
         ResultSet rs = pst.executeQuery();
         filmListMaker(rs, films);
@@ -47,8 +46,8 @@ public class DBInteraction {
         return actors;
     }
 
-    public List<Film> selectFilmsThisAndLastDateOfProduction() throws SQLException {
-        List<Film> filmsThatProductIn22Or21 = new ArrayList<>();
+    public List<FilmDTO> selectFilmsThisAndLastDateOfProduction() throws SQLException {
+        List<FilmDTO> filmsThatProductIn22Or21 = new ArrayList<>();
         Calendar calendar = new GregorianCalendar(2021, Calendar.JANUARY, 1);
         pst = connection.prepareStatement("SELECT * FROM films WHERE DATE(Date_Prodaction) > '" + calendar.get(Calendar.YEAR) + "-" + calendar.get(Calendar.MONTH) + "-" + calendar.get(Calendar.DAY_OF_MONTH) + "'");
         ResultSet rs = pst.executeQuery();
@@ -93,9 +92,9 @@ public class DBInteraction {
         pst.execute();
     }
 
-    private List<Film> filmListMaker(ResultSet rs, List<Film> films) throws SQLException {
+    private List<FilmDTO> filmListMaker(ResultSet rs, List<FilmDTO> films) throws SQLException {
         while (rs.next()) {
-            Film film = new Film(rs.getInt("Id"), rs.getString("Film_Name"), rs.getDate("Date_Prodaction"), rs.getString("Country"));
+            FilmDTO film = new FilmDTO(rs.getInt("Id"), rs.getString("Film_Name"), rs.getDate("Date_Prodaction"), rs.getString("Country"));
             films.add(film);
         }
         return films;

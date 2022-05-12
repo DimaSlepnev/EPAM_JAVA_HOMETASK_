@@ -966,7 +966,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="280" parent="1" name="videoteka">
       <Current>1</Current>
-      <CollationName>utf8_general_ci</CollationName>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="281" parent="1" name="world">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
@@ -992,19 +992,19 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </user>
     <table id="286" parent="280" name="actors">
       <Engine>InnoDB</Engine>
-      <CollationName>utf8_general_ci</CollationName>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="287" parent="280" name="film_actors">
       <Engine>InnoDB</Engine>
-      <CollationName>utf8_general_ci</CollationName>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="288" parent="280" name="film_directors">
       <Engine>InnoDB</Engine>
-      <CollationName>utf8_general_ci</CollationName>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <table id="289" parent="280" name="films">
       <Engine>InnoDB</Engine>
-      <CollationName>utf8_general_ci</CollationName>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="290" parent="286" name="Id">
       <AutoIncrement>11</AutoIncrement>
