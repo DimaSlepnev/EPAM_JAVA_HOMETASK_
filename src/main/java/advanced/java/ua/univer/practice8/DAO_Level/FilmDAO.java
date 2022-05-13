@@ -1,7 +1,7 @@
 package advanced.java.ua.univer.practice8.DAO_Level;
 
-import advanced.java.ua.univer.practice7.subject_area.FilmDTO;
 import advanced.java.ua.univer.practice8.ConnectionPool;
+import advanced.java.ua.univer.practice8.DOT_Level.FilmDTO;
 
 import java.sql.*;
 import java.util.ArrayList;
